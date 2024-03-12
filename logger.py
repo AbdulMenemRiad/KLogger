@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# TODO Author: Abdulrahman Mohammed (De3vil)
-# TODO Don't touch my code, it's art 
-#+==============================
 from Utils.generator import build_t
-from Utils.banne_r import banner ,G,R,B,X,Q,WI , Y , BOOLD , F,res,bl
 from shutil import rmtree
 import os
 from subprocess import call
@@ -12,7 +7,6 @@ if name =="nt":
 	system("cls")
 else:
 	system("clear")
-print(banner)
 class EngyRun:
 	def __init__(self):
 		self.filenampackeg = "Key.py"
